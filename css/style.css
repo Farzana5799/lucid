@@ -1,0 +1,186 @@
+/******************
+  global css start
+******************/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Source Sans 3', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+.title-h{
+    color: #008ed6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.title-b{
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 600;
+}
+.title-f{
+    color: #999999;
+    font-size: 18px;
+}
+/******************
+  global css end
+******************/
+.header-section{
+    background: url(../img/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px 0px;
+}
+.header-section .logo-a{
+    margin-right: 10px;
+}
+.header-section .nav-link{
+    color: #fffefe !important;
+}
+.header-section .nav-link:hover{
+    background: url(../img/line.png) center bottom;
+    background-repeat: no-repeat;
+}
+.header-section .content{
+    padding: 130px 0px;
+    padding-right: 100px;
+}
+.header-section .content span{
+    font-weight: 700;
+}
+.header-section .content h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 36px 0px 40px;
+}
+.header-section .content p{
+
+    padding-right: 50px;
+}
+.header-section .content .join-btn{
+    margin-top: 64px;
+    margin-bottom: 70px;
+}
+.header-section .content .join-btn .btn-primary{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    margin-right: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px 32px;
+    border-radius: 4px;
+    transition: .5s;
+}
+.header-section .content .join-btn .btn-primary:hover{
+    background: transparent;
+    border: 1px solid #4c4c51;
+    transition: .5s;
+}
+.header-section .content .join-btn .btn-info{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #4c4c51;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px 32px;
+    border-radius: 4px;
+    transition: .5s;
+}
+.header-section .content .join-btn .btn-info:hover{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: .5s;
+}
+/* header css end */
+
+
+/* product overvier css start */
+.product-section{
+    padding: 60px 0px 90px;
+    border-bottom: 2px solid #ededed;
+}
+.product-section .title{
+    text-align: center;
+}
+
+.product-section .title h3{
+    margin: 30px 0px 40px;
+}
+.product-section .box{
+    text-align: center;
+    margin-top: 70px;
+}
+.product-section .box h2{
+    margin: 40px 0px 20px;
+}
+.product-section .box p{
+    padding: 0px 30px;
+}
+/* product overvier css end */
+
+
+/* Beautiful on every device css start */
+.device-section{
+    width: 100%;
+    padding-top: 70px;
+}
+.device-section .d-img{
+    text-align: center;
+}
+.device-section .title h2{
+    margin: 24px 0px 36px;
+}
+.device-section .title p{
+    margin: 30px 0px 38px;
+}
+.device-section .icon-box ul{}
+.device-section .icon-box li{
+    color: #1a1a1a;
+    font-size: 18px;
+    padding-bottom: 20x;
+}
+.device-section .icon-box li .a, .d{
+    padding-right: 5px;
+}
+.device-section .icon-box li .b, .c{
+    padding-right: 10px;
+}
+/* Beautiful on every device css end */
+
+
+/* Super easy to customize css start */
+.customize-secton{
+    background: #f2f2f2;
+}
+.customize-secton .title{
+    padding-top: 132px;
+    padding-right: 46px;
+}
+.customize-secton .title span{}
+.customize-secton .title h2{
+    margin: 24px 0px 36px;
+}
+.customize-secton .title p{
+    margin-top: 30px;
+}
+.customize-secton .phone2{
+    margin-top: 90px;
+}
+.customize-secton .phone2 img{
+    margin-left: -30px;
+}
+/* Super easy to customize css end */
